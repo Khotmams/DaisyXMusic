@@ -610,8 +610,8 @@ async def play(_, message: Message):
                     InlineKeyboardButton("Menu ⏯ ", callback_data="menu"),
                 ],
                 [
-                    InlineKeyboardButton(⚛️ GROUP", url="https://t.me/gsahmanja"),
-                    InlineKeyboardButton(⚛️ CHANNEL", url="https://t.me/seconpi"),
+                    InlineKeyboardButton("⚛️ GROUP", url="https://t.me/gsahmanja"),
+                    InlineKeyboardButton("⚛️ CHANNEL", url="https://t.me/seconpi"),
                 ],
                 [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
             ]
