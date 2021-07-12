@@ -723,10 +723,9 @@ async def play(_, message: Message):
         qeue.append(appendable)
         await message.reply_photo(
             photo="final.png",
-            caption=f"🏷 **Judul:** [{title[:60]}]({url})\n**⏱ Durasi:** {duration}\n" \
-                + f"💡 **Status:** Playing\n🎧 **Permintaan:** {r_by.mention}".format(
-                message.from_user.mention()
-        )
+            caption=f"#⃣ lagu yang anda minta **mengantri** di posisi {position}!",
+            reply_markup=keyboard,
+        ) 
         os.remove("final.png")
         return await lel.delete()
     else:
@@ -746,7 +745,8 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="▶️ <b>Playing</b> here the song requested by {} via Youtube Music 😎".format(
+            caption="▶️ Playing"🏷 **Judul:** [{title[:60]}]({url})\n**⏱ Durasi:** {duration}\n" \
+                + f"💡 **Status:** Playing\n🎧 **Permintaan:** {r_by.mention}".format(
                 message.from_user.mention()
             ),
         )
