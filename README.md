@@ -2,12 +2,12 @@ Tren Music Dengan Support
 
 <h1 align="centre">DAISYXMUSIC V5.0 🎵</h1>
 
-### A bot that can play music on Telegram Group and Channel Voice Chats
+### Simple Bot Musikan Ya Gengs! Main2 ke [Castle Kita](t.me/gsahmanja) 
 #### POWERED BY [MARSHALX TGCALLS](https://github.com/MarshalX/tgcalls)
 ### Available on telegram as [@DaisyXbot](https://t.me/daisyxbot)
 
 <p align="center">
-  <img src="https://telegra.ph/file/dd04b1968f1bc1169d162.jpg">
+  <img src="https://telegra.ph/file/0027228c70fbc36ed0a5d.jpg">
 </p>
 
 <h2> Features 🔥 </h2>
