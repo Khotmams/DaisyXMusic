@@ -34,7 +34,7 @@ async def pmPermit(client: USER, message: Message):
                 return
             await USER.send_message(
                 message.chat.id,
-                "Hi there, This is a music assistant service .\n\n ❗️ Rules:\n   - No chatting allowed\n   - No spam allowed \n\n 👉 **SEND GROUP INVITE LINK OR USERNAME IF USERBOT CAN'T JOIN YOUR GROUP.**\n\n ⚠️ Disclamer: If you are sending a message here it means admin will see your message and join chat\n    - Don't add this user to secret groups.\n   - Don't Share private info here\n\n",
+                "halo 👋, gue bot music assistant.**\n\n📕 about:\n➥ Saya adalah asistant music bot.\n➥ Dilarang spam pesan ke akun ini.\n\n👉 **kirim link undangan grup mu jika asisten tidak dapat bergabung ke dalam grup mu.**\n\n💬 **Group:** @gsahmanja.\n** Channel:** @seconpi\n\n",
             )
             return
 
@@ -60,7 +60,7 @@ async def autopmPermiat(client: USER, message: Message):
     chat_id = message.chat.id
     if not chat_id in pchats:
         pchats.append(chat_id)
-        await message.reply_text("Approoved to PM due to outgoing messages")
+        await message.reply_text("PESAN KELUAR OK")
         return
     message.continue_propagation()    
     
@@ -69,7 +69,7 @@ async def pmPermiat(client: USER, message: Message):
     chat_id = message.chat.id
     if not chat_id in pchats:
         pchats.append(chat_id)
-        await message.reply_text("Approoved to PM")
+        await message.reply_text("PM DITERIMA")
         return
     message.continue_propagation()    
     
@@ -79,6 +79,6 @@ async def rmpmPermiat(client: USER, message: Message):
     chat_id = message.chat.id
     if chat_id in pchats:
         pchats.remove(chat_id)
-        await message.reply_text("Dispprooved to PM")
+        await message.reply_text("PM DITOLAK!")
         return
     message.continue_propagation()
