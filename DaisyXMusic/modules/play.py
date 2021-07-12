@@ -723,8 +723,9 @@ async def play(_, message: Message):
         qeue.append(appendable)
         await message.reply_photo(
             photo="final.png",
-            caption=f"#⃣ Lagu yang anda minta <b>Mengantri</b> Di posisi {position}!",
-            reply_markup=keyboard,
+            caption=f"🏷 **Judul:** [{title[:60]}]({url})\n**⏱ Durasi:** {duration}\n" \
+                + f"💡 **Status:** Playing\n🎧 **Permintaan:** {r_by.mention}".format(
+                message.from_user.mention()
         )
         os.remove("final.png")
         return await lel.delete()
