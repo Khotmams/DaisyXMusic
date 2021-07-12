@@ -1,3 +1,5 @@
+Tren Music Dengan Support 
+
 <h1 align="centre">DAISYXMUSIC V5.0 🎵</h1>
 
 ### A bot that can play music on Telegram Group and Channel Voice Chats
@@ -26,7 +28,7 @@
 
 ### 💜 Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TeamDaisyX/DaisyXMusic)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Khotmams/TrenMusic)
 
 Get pyrogram (p)  `SESSION` from here:
 
