@@ -146,7 +146,7 @@ async def playlist(client, message):
         return    
     queue = que.get(message.chat.id)
     if not queue:
-        await message.reply_text("Player sudah terhubung")
+        await message.reply_text("Player tidak terhubung")
     temp = []
     for t in queue:
         temp.append(t)
@@ -216,7 +216,7 @@ async def ee(client, message):
     if stats:
         await message.reply(stats)
     else:
-        await message.reply("No VC instances running in this chat")
+        await message.reply("NYALAIN OS DULU Gblok!")
 
 
 @Client.on_message(filters.command("player") & filters.group & ~filters.edited)
@@ -237,7 +237,7 @@ async def settings(client, message):
         else:
             await message.reply(stats, reply_markup=r_ply("play"))
     else:
-        await message.reply("No VC instances running in this chat")
+        await message.reply("NYALAIN OS DULU Gblok!")
 
 
 @Client.on_message(
