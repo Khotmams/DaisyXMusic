@@ -1,9 +1,9 @@
 {
-  "name": "DaisyXMusic",
-  "logo": "https://telegra.ph/file/36ff1b571aa11df5812de.jpg",
+  "name": "TrenMusic",
+  "logo": "https://telegra.ph/file/d9ca14cb9d3cc1c430278.jpg",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/TeamDaisyX/DaisyXMusic",
+  "repository": "https://github.com/Khotmams/TrenMusic",
   "stack": "heroku-20",
   "buildpacks": [
    {
@@ -32,9 +32,9 @@
       "value": ""
     },
     "SUPPORT_GROUP": {
-      "description": "Your MusicPlayer support group without @ [Leave this if you don't have one]",
+      "description": "KOSONGIN AJA!",
       "required": false,
-      "value": "DaisySupport_Official"
+      "value": "gsahmanja"
     },
     "PROJECT_NAME": {
       "description": "Your MusicPlayer project Name.",
@@ -56,9 +56,9 @@
       "value": " https://telegra.ph/file/dcfdf612e499eef0e0b1f.png"
     },     
     "UPDATES_CHANNEL": {
-      "description": "Updates Channel without @ [Leave this if you don't have one].",
+      "description": "KOSONGIN AJA!.",
       "required": false,
-      "value": "DaisyXupdates"
+      "value": "Seconpi"
     },    
     "API_ID": {
       "description": "App ID from my.telegram.org/apps",
