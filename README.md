@@ -1,5 +1,4 @@
-Tren Music Dengan Support 
-
+<h1 align="centre">TREN MUSIK Dengan Support</h1>
 <h1 align="centre">DAISYXMUSIC V5.0 🎵</h1>
 
 ### Simple Bot Musikan Ya Gengs! Main2 ke [Castle Kita](t.me/gsahmanja) 
