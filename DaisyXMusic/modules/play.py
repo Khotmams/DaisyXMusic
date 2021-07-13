@@ -1296,11 +1296,10 @@ async def lol_cb(b, cb):
             photo="final.png",
             reply_markup=keyboard,
             caption=f"▶️ **Judul:** [{title[:60]}]({url})\n**⏱ Durasi:** {duration}\n" \
-                + f"💡 **Status:** Playing\n🎧 **Permintaan:** {r_by.mention}".format(
-                message.from_user.mention()
-            ), 
+                + f"💡 **Status:** Playing\n🎧 **Permintaan:** {r_by.mention}",
         )
         
         os.remove("final.png")
+
 
 
