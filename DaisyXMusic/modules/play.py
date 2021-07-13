@@ -1298,6 +1298,7 @@ async def lol_cb(b, cb):
             caption=f"▶️ **Judul:** [{title[:60]}]({url})\n**⏱ Durasi:** {duration}\n" \
                 + f"💡 **Status:** Playing\n🎧 **Permintaan:** {r_by.mention}".format(
                 message.from_user.mention()
-            ), 
-        ) 
+        )
         os.remove("final.png")
+
+
