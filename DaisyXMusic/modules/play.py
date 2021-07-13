@@ -1300,6 +1300,7 @@ async def lol_cb(b, cb):
                 message.from_user.mention()
             ), 
         )
+        
         os.remove("final.png")
 
 
