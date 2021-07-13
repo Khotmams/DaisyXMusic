@@ -703,8 +703,8 @@ async def play(_, message: Message):
                         InlineKeyboardButton("Menu ⏯ ", callback_data="menu"),
                     ],
                     [
-                        InlineKeyboardButton(text="🎬 YouTube", url=f"{url}"),
-                        InlineKeyboardButton(text="Download 📥", url=f"{dlurl}"),
+                        InlineKeyboardButton("⚛️ GROUP", url="https://t.me/gsahmanja"),
+                        InlineKeyboardButton("⚛️ CHANNEL", url="https://t.me/Seconpi"),
                     ],
                     [InlineKeyboardButton(text="❌ Close", callback_data="cls")],
                 ]
@@ -1250,8 +1250,8 @@ async def lol_cb(b, cb):
                 InlineKeyboardButton("Menu ⏯ ", callback_data="menu"),
             ],
             [
-                InlineKeyboardButton(text="🎬 YouTube", url=f"{url}"),
-                InlineKeyboardButton(text="Download 📥", url=f"{dlurl}"),
+                InlineKeyboardButton("⚛️ GROUP", url="https://t.me/gsahmanja"),
+                InlineKeyboardButton("⚛️ CHANNEL", url="https://t.me/Seconpi"),
             ],
             [InlineKeyboardButton(text="❌ Close", callback_data="cls")],
         ]
@@ -1295,7 +1295,9 @@ async def lol_cb(b, cb):
         await b.send_photo(chat_id,
             photo="final.png",
             reply_markup=keyboard,
-            caption=f"▶️ <b>Bermain</b> Permintaan dari Lord{r_by.mention} via Youtube Music 😎",
-        )
-        
+            caption=f"▶️ **Judul:** [{title[:60]}]({url})\n**⏱ Durasi:** {duration}\n" \
+                + f"💡 **Status:** Playing\n🎧 **Permintaan:** {r_by.mention}".format(
+                message.from_user.mention()
+            ), 
+        ) 
         os.remove("final.png")
